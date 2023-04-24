@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width,initial-scale=1'/>
+    <meta content='true' name='HandheldFriendly'/>
+    <meta content='width' name='MobileOptimized'/>
+    <meta content='yes' name='apple-mobile-web-app-capable'/>
+    <link rel="shortcut icon" href="img/icon/MacOS.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Mac OS 10.16</title>
+  </head>
+  <body>
+    <font face = "Consolas">
+    <div class="main">
+    <div class="panel">
+      <font size = 4><font color = #FFFFFF> <center> <a href="index.html">Операционные системы</a>
+  </div>
+  </div>
+  <div class="TextBlock">
+    <div class="TextH1">
+      <center><div class="wfhtml"> <div class ="shtml"
+        <font color = #FFFFFF><p align ="justify">
+        <center> Установка и настройка виртуальной машины macOS 10.16 </center>
+      </p>
+        </font>
+         </center></div>
+    </div>
+    <font color = #FFFFFF> 
+      <center> <div class ="shtml">
+        <font color = #FFFFFF><p align ="justify">
+         <center> Процесс создания и настройки виртуальной машины </center>
+      </p>
+    </div>
+    <div class="Text">
+      <font color = #FFFFFF> 
+        <div class ="shtml">
+          <font color = #FFFFFF><p align ="justify">
+            <p align ="left">После запуска VirtualBox пользователю необходимо нажать на кнопку “создать” находящиеся в панеле сверху. После нажатия данной кнопки открывается панель, в которой пользователь может задать имя, тип и версию операционной системы, а также количество доступной оперативной памяти виртуальной машине. В нашем случае мы выбираем macOS 10.13 High Sierra (64-bit) и 4 Гб оперативной памяти.
+            <center><img src="img/macos/1.png" alt="Окно создания"></center>  
+            <p align ="left">Нажав на кнопку создать, пользователь может настроить расположение виртуального жесткого диска, указав его размер и тип. В нашем случае это будет 56,58 Гб динамическим жестким диском типа VDI.</p>
+            <center><img src="img/macos/2.png" alt="Окно создания 2"></center> 
+            <p align ="left">После создания виртуальной машины, пользователю необходимо войти в настройки процессора и указать количество процессоров равное, количеству ядер в процессоре</p>
+            <center><img src="img/macos/3.png" alt="Окно настройки процессора"></center> 
+            <p align ="left">Далее необходимо убедиться, что включена технология виртуализации NT-V/AMD-V. </p>
+            <center><img src="img/macos/4.png" alt="Окно настройки процессора 2"></center>
+            <p align ="left">После чего необходимо зайти в настройки дисплея и выделить максимальное количество мб видеопамяти доступное пользователю, 3D-ускорение включать не нужно.</p> 
+            <center><img src="img/macos/5.png" alt="Окно настройки дисплея"></center> 
+            <p align ="left">Далее необходимо зайти в настройки носителей и выбрать установочный виртуальный диск операционной системы в качестве носителя.</p>
+            <center><img src="img/macos/6.png" alt="Окно настройки носителей"></center> 
+            <p align ="left">После проделанных действий виртуальная машина готова к запуску.</p>
+            </p>
+          </font>
+           </div>
+         <font color = #FFFFFF> 
+          <center> <div class ="shtml">
+            <font color = #FFFFFF><p align ="justify">
+             <center>Установка операционной системы и результаты проведённого в Geekbench 5 тестирования</center>
+          </p>
+        </div>
+        <div class ="shtml">
+          <font color = #FFFFFF><p align ="justify">
+            <p align ="left">После настройки виртуальной машины пользователь запускает виртуальной машины. Она автоматически начинает загружаться с iso носителя, запускается установка ОС. Первым этапом установки является выбор языка, в нашем случае это русский.
+            <center><img src="img/macos/install/1.png" alt=""></center>  
+            <p align ="left">Далее необходимо выбрать носитель для установки.</p>
+            <center><img src="img/macos/install/2.png" alt=""></center>  
+            <p align ="left">После этого операционная система установится на носитель. Далее необходимо выбрать страну, в нашем случае это Россия. </p>
+            <center><img src="img/macos/install/3.png" alt=""></center>  
+            <p align ="left">Далее необходимо выбрать раскладку клавиатуры.</p>
+            <center><img src="img/macos/install/4.png" alt=""></center>  
+            <p align ="left">Далее необходимо выбрать перенос или не перенос данных на Mac</p>
+            <center><img src="img/macos/install/5.png" alt=""></center>  
+            <p align ="left">После чего система попросит пользователя ввести данные Apple ID, геолокация. Далее необходимо выбрать часовой пояс и операционная система готова к использованию.</p>
+            <center><img src="img/macos/install/6.png" alt=""></center>  
+            <p align ="left">После установки было произведено тестирование в программах, по результатам программы Geekbench 5 производительность на одно ядро равна 810, на все четыре ядра равна 2258.
+            </p>
+        </p>
+      </p>
+          </font>
+           </div>
+  <div class="main">
+    <div class="panel">
+      <font size = 4><font color = #FFFFFF> <a href="vs.html">Следующая страница: Сравнительная характеристика</a>
+    </div>
+  </div>
+</body>
+</html>
