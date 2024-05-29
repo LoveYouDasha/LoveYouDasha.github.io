@@ -74,6 +74,31 @@ document.getElementById('ImageButtonNMT').addEventListener('click', function() {
     newTab.focus();
 });
 
+document.getElementById('ImageButtonNMT2').addEventListener('click', function() {
+    var imageUrl = 'NMT2.jpg';
+    var newTab = window.open(imageUrl, '_blank');
+    newTab.focus();
+});
+
+document.getElementById('ImageButtonSisi').addEventListener('click', function() {
+    var imageUrl = 'sisi.jpg';
+    var newTab = window.open(imageUrl, '_blank');
+    newTab.focus();
+});
+
+document.getElementById('ImageButtonHen').addEventListener('click', function() {
+    var imageUrl = 'hen.jpg';
+    var newTab = window.open(imageUrl, '_blank');
+    newTab.focus();
+});
+
+document.getElementById('ImageButtonHen2').addEventListener('click', function() {
+    var imageUrl = 'hen2.jpg';
+    var newTab = window.open(imageUrl, '_blank');
+    newTab.focus();
+});
+
+
 document.getElementById('ImageButton5').addEventListener('click', function() {
     var imageUrl = 'meme4.jpg';
     var newTab = window.open(imageUrl, '_blank');
