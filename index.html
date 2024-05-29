@@ -1,88 +1,38 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name='viewport' content='width=device-width,initial-scale=1'/>
-    <meta content='true' name='HandheldFriendly'/>
-    <meta content='width' name='MobileOptimized'/>
-    <meta content='yes' name='apple-mobile-web-app-capable'/>
-    <link rel="shortcut icon" href="img/icon/icon.png">
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Люблю Дашеньку <3</title>
+    <link rel="shortcut icon" href="icon.png" />
     <link rel="stylesheet" href="style.css">
-    <title>Наймиліше Сонечко</title>
-  </head>
-  <body>
-    <font face = "Consolas">
-    <div class="main">
-    <div class="panel">
-      <font size = 4><font color = #FFFFFF> <center> <a href="index.html">Наймиліше Сонечко</a>
-  </div>
-  </div>
-      <center><div class="wfhtml"> <div class ="shtml">
-        <font color = #FFFFFF><p align ="justify">
-          <font size = 4> <center>Любовь – это как смех и шутки, <br>
-            Она радость в сердцах людских. <br>
-            И ради неё шутки создают, <br>
-            И ради них мы все тут собрались.</center></font>
-      </p>
-        </font>
-         </center></div>
+</head>
+<body>
+    <div class="container">
+        <h1>Добро пожаловать на сайт, Даша!</h1>
+        <img id="ImageButton1" class="image" src="dasha.png">
+        <p>Этот сайт создан специально для тебя, и я надеюсь, тебе он понравится! :)</p>
+        <p>Нажми на кнопку ниже и начнётся ёбля кабанов!</p>
+        <button id="loveButton">Показать мою любовь</button>
+        <div id="loveMessage" style="display: none;">
+            <p class = "visibles">Рекомендую просматривать сайт с данной музычкой в ушах :)</p>
+            <audio class = "visibles" controls src="music.mp3"> </audio>
+            <p class = "visibles">Ну или этой :)</p>
+            <audio class = "visibles" controls src="mymusic.mp3"> </audio>
+            <h1>За что я люблю Дашеньку?</h1>
+            <p class = "visibles">1. За её юморную глупость и чувство юмора</p>
+            <img id="ImageButton2" class = "visiblesimage" src="meme1.jpg">
+            <p class = "visibles">2. За её характер и доброту :)</p>
+            <img id="ImageButton3" class = "visiblesimage" src="meme2.jpg">
+            <p class = "visibles">3. За её способность всегда оказать поддержку</p>
+            <h1 class = "visibles">Я люблю тебя, Даша!❤️</h1>
+            <p class = "visibles">Если тебе не понравился этот сайт, нажми на кнопку ниже</p>
+            <button id="cwuaButton">Плак-плак :(</button>
+            <div id="cwuaMessage" style="display: none;">
+                <p>Прости за неоправданные ожидания :(</p>
+            </div>
+        </div>
     </div>
-    <font color = #FFFFFF> 
-      <center> <div class ="shtml">
-        <font color = #FFFFFF><p align ="justify">
-         <center> Процесс создания и настройки виртуальной машины </center>
-      </p>
-    </div>
-      <font color = #FFFFFF> 
-        <div class ="shtml">
-          <font color = #FFFFFF><p align ="justify">
-            <p align ="left">После запуска VirtualBox пользователю необходимо нажать на кнопку “создать” находящиеся в панеле сверху. После нажатия данной кнопки открывается панель, в которой пользователь может задать имя, тип и версию операционной системы, а также количество доступной оперативной памяти виртуальной машине. В нашем случае мы выбираем Ubuntu (64-bit) и 4 Гб оперативной памяти.
-            <center><img src="img/ubuntu/1.png" alt="Окно создания"></center>  
-            <p align ="left">Нажав на кнопку создать, пользователь может настроить расположение виртуального жесткого диска, указав его размер и тип. В нашем случае это будет 56,58 Гб динамическим жестким диском типа VDI.</p>
-            <center><img src="img/ubuntu/2.png" alt="Окно создания 2"></center> 
-            <p align ="left">После создания виртуальной машины, пользователю необходимо войти в настройки процессора и указать количество процессоров равное, количеству ядер в процессоре</p>
-            <center><img src="img/ubuntu/3.png" alt="Окно настройки процессора"></center> 
-            <p align ="left">Далее необходимо убедиться, что включена технология виртуализации NT-V/AMD-V. </p>
-            <center><img src="img/ubuntu/4.png" alt="Окно настройки процессора 2"></center>
-            <p align ="left">После чего необходимо зайти в настройки дисплея, включить 3D-ускорение и выделить максимальное количество мб видеопамяти доступное пользователю.</p> 
-            <center><img src="img/ubuntu/5.png" alt="Окно настройки дисплея"></center> 
-            <p align ="left">Далее необходимо зайти в настройки носителей и выбрать установочный виртуальный диск операционной системы в качестве носителя.</p>
-            <center><img src="img/ubuntu/6.png" alt="Окно настройки носителей"></center> 
-            <p align ="left">После проделанных действий виртуальная машина готова к запуску.</p>
-            </p>
-          </font>
-           </div>
-           <font color = #FFFFFF> 
-            <center> <div class ="shtml">
-              <font color = #FFFFFF><p align ="justify">
-               <center>Установка операционной системы и результаты проведённого в Geekbench 5 тестирования</center>
-            </p>
-          </div>
-           <div class ="shtml">
-            <font color = #FFFFFF><p align ="justify">
-              <p align ="left"> После настройки виртуальной машины пользователь запускает виртуальной машины. Она автоматически начинает загружаться с iso носителя, запускается установка ОС. Первым этапом является выбор загрузки в Grub загрузчике: Try or Install Ubuntu.
-              <center><img src="img/ubuntu/install/1.png" alt=""></center>  
-              <p align ="left"> Далее необходимо выбрать русский язык и нажать на установку Ubuntu</p>
-              <center><img src="img/ubuntu/install/2.png" alt=""></center>  
-              <p align ="left"> Далее пользователю предлагается выбрать начальные приложения, в нашем случае это будет минимальная установка. Также выбираем установку стороннего ПО, это подразумевает установку соответствующих драйверов и другого ПО для конкретного компьютера.</p>
-              <center><img src="img/ubuntu/install/3.png" alt=""></center>  
-              <p align ="left">Далее необходимо выбрать стереть диск и установить Ubuntu, так как до этого не была установлена операционная система.</p>
-              <center><img src="img/ubuntu/install/4.png" alt=""></center>  
-              <p align ="left">Далее необходимо выбрать регион, в нашем случае это Екатеринбург.</p>
-              <center><img src="img/ubuntu/install/5.png" alt=""></center>  
-              <p align ="left">После проделанных действий операционная система начнёт свою установку.</p>
-              <center><img src="img/ubuntu/install/6.png" alt=""></center>  
-              <p align ="left">После установки операционной системы, live-cd образ с помощью которого осуществлялась установку сам перезагрузит виртуальную машину и операционная система при запуске попросит нас отключить live-cd образ, нажимаем Enter.</p>
-              <center><img src="img/ubuntu/install/7.png" alt=""></center>  
-              <p align ="left">После установки было произведено тестирование в программах, по результатам программы Geekbench 5 производительность на одно ядро равна 838, на все четыре ядра равна 2359.
-              </p>
-          </p>
-        </p>
-          </font>
-           </div>
-  <div class="main">
-    <div class="panel">
-      <font size = 4><font color = #FFFFFF> <a href="index.html">Наймиліше Сонечко</a>
-    </div>
-  </div>
+    <script src="script.js"></script>
 </body>
 </html>

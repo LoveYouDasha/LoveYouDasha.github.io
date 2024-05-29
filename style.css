@@ -1,80 +1,60 @@
-
-  body {
-	font-size:16px;
-	font-family:  "ＭＳ Ｐゴシック", "MS PGothic";
-	min-width:1000px;
-	margin: 0 auto;
-	position: relative;
-    background: #e2e7ec;
-	background-attachment:fixed;
-	background-repeat:no-repeat;
-	background-position: center top;
-	background-color: #ffedf2;
-	color: #441d0e;
-
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+    background-color: #f0f0f086;
 }
-A {
-    text-decoration: none; 
-    color:#FFFFFF
-   } 
-.main {
-    display: grid;
-    margin: 0 auto;
-    height: 40px;
-    background: rgba(255,120,155,0.85);
+
+.container {
+    background-color: #fff;
+    padding: 10px;
     border-radius: 10px;
-    text-shadow: -1.5px -1.5px #ff6399, 1.5px -1.5px #ff6399, -1.5px 1.5px #ff6399, 1.5px 1.5px #ff6399, 0 0 6px #ff6399;
-    box-shadow: 0 0 6px 3px rgb(255 159 171 / 40%);
-}
-.cube {
-    margin: 2% 8%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 426px);
-    grid-gap: 20px;
-    margin: 0 auto;
-    justify-content: center;
-
-}
-.fcube {
-    height: 500px;
-    width: 426px;
-    background: rgba(255,120,155,0.85);
-    margin: 0 0;
-}
-.panel {
-    height: 40px;
-    line-height: 40px;
-    margin: 0 auto;
-}
-.wf {
-    display: grid;
-}
-.s {
-    margin: 2% 30%;
-   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.shtml {
-    display: grid;
-    margin: 1% 15%;
-    border-left: solid black 5px;
-    border-right: solid black 5px;
-    justify-content: center;
-    background: rgba(255,120,155,0.85);
-    text-shadow: -1.5px -1.5px #ff6399, 1.5px -1.5px #ff6399, -1.5px 1.5px #ff6399, 1.5px 1.5px #ff6399, 0 0 6px #ff6399;
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+button:hover {
+    background-color: #3c32bbe1;
 }
-.itemtext {
-    padding: 24px;
+
+.visibles {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
-.texts {
-   color: rgba(255,120,155,0.85);
+
+.visibles.visible {
+    opacity: 1;
 }
-.texthead {
-    color: rgba(255,120,155,0.85);
+
+.visiblesimage {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    width: 500px;
+    cursor: pointer;
 }
-@media (max-width: 1023px) {
-    body {
-        padding: 0;
+
+.visiblesimage.visible {
+    opacity: 1;
+}
+.image {
+    width: 500px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 460px) {
+    .image {
+        width: 250px;
+    }
+    .visiblesimage {
+        width: 250px;
     }
 }
