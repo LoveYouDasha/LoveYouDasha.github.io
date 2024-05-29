@@ -55,3 +55,37 @@ document.getElementById('ImageButton3').addEventListener('click', function() {
     var newTab = window.open(imageUrl, '_blank');
     newTab.focus();
 });
+
+document.getElementById('ImageButton4').addEventListener('click', function() {
+    var imageUrl = 'meme3.jpg';
+    var newTab = window.open(imageUrl, '_blank');
+    newTab.focus();
+});
+
+document.getElementById('ImageButtonPlak').addEventListener('click', function() {
+    var imageUrl = 'sad.jpg';
+    var newTab = window.open(imageUrl, '_blank');
+    newTab.focus();
+});
+
+document.getElementById('ImageButtonNMT').addEventListener('click', function() {
+    var imageUrl = 'NMT.png';
+    var newTab = window.open(imageUrl, '_blank');
+    newTab.focus();
+});
+
+document.getElementById('ImageButton5').addEventListener('click', function() {
+    var imageUrl = 'meme4.jpg';
+    var newTab = window.open(imageUrl, '_blank');
+    newTab.focus();
+});
+document.getElementById('ImageButton6').addEventListener('click', function() {
+    var imageUrl = 'meme5.jpg';
+    var newTab = window.open(imageUrl, '_blank');
+    newTab.focus();
+});
+document.getElementById('ImageButton7').addEventListener('click', function() {
+    var imageUrl = 'meme6.png';
+    var newTab = window.open(imageUrl, '_blank');
+    newTab.focus();
+});
