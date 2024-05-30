@@ -10,6 +10,12 @@ document.getElementById('cwuaButton').addEventListener('click', function() {
     audio.play();
 });
 
+document.getElementById('nudeButton').addEventListener('click', function() {
+    var audio = new Audio('nude.mp3'); 
+    audio.play();
+});
+
+
 window.addEventListener('scroll', function() {
     var elements = document.querySelectorAll('.visibles');
     elements.forEach(function(element) {
@@ -80,6 +86,13 @@ document.getElementById('ImageButtonNMT2').addEventListener('click', function() 
     newTab.focus();
 });
 
+document.getElementById('ImageButtonNMT3').addEventListener('click', function() {
+    var imageUrl = 'NMT3.jpg';
+    var newTab = window.open(imageUrl, '_blank');
+    newTab.focus();
+});
+
+
 document.getElementById('ImageButtonSisi').addEventListener('click', function() {
     var imageUrl = 'sisi.jpg';
     var newTab = window.open(imageUrl, '_blank');
@@ -111,6 +124,12 @@ document.getElementById('ImageButton6').addEventListener('click', function() {
 });
 document.getElementById('ImageButton7').addEventListener('click', function() {
     var imageUrl = 'meme6.png';
+    var newTab = window.open(imageUrl, '_blank');
+    newTab.focus();
+});
+
+document.getElementById('ImageButton8').addEventListener('click', function() {
+    var imageUrl = 'meme7.jpg';
     var newTab = window.open(imageUrl, '_blank');
     newTab.focus();
 });
